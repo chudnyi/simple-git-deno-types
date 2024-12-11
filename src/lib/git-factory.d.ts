@@ -1,6 +1,6 @@
-import { SimpleGitFactory } from '../../typings';
-import * as api from './api';
-import { SimpleGitOptions } from './types';
+import { SimpleGitFactory } from '../../typings/index.d.ts';
+import * as api from './api.d.ts';
+import { SimpleGitOptions } from './types/index.d.ts';
 /**
  * Adds the necessary properties to the supplied object to enable it for use as
  * the default export of a module.

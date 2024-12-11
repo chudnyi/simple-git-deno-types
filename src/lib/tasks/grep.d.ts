@@ -1,4 +1,4 @@
-import { SimpleGit } from '../../../typings';
+import { SimpleGit } from '../../../typings/index.d.ts';
 export interface GitGrepQuery extends Iterable<string> {
     /** Adds one or more terms to be grouped as an "and" to any other terms */
     and(...and: string[]): this;

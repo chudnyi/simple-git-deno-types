@@ -1,4 +1,4 @@
-import type { SimpleGit } from '../../../typings';
+import type { SimpleGit } from '../../../typings/index.d.ts';
 export interface VersionResult {
     major: number;
     minor: number;

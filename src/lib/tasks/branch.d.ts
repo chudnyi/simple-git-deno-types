@@ -1,5 +1,5 @@
-import { BranchMultiDeleteResult, BranchSingleDeleteResult, BranchSummary } from '../../../typings';
-import { StringTask } from '../types';
+import { BranchMultiDeleteResult, BranchSingleDeleteResult, BranchSummary } from '../../../typings/index.d.ts';
+import { StringTask } from '../types/index.d.ts';
 export declare function containsDeleteBranchCommand(commands: string[]): boolean;
 export declare function branchTask(customArgs: string[]): StringTask<BranchSummary | BranchSingleDeleteResult>;
 export declare function branchLocalTask(): StringTask<BranchSummary>;

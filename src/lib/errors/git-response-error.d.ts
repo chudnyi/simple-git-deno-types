@@ -1,4 +1,4 @@
-import { GitError } from './git-error';
+import { GitError } from './git-error.d.ts';
 /**
  * The `GitResponseError` is the wrapper for a parsed response that is treated as
  * a fatal error, for example attempting a `merge` can leave the repo in a corrupted

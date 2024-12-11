@@ -1,4 +1,4 @@
-import { FileStatusResult } from '../../../typings';
+import { FileStatusResult } from '../../../typings/index.d.ts';
 export declare const fromPathRegex: RegExp;
 export declare class FileStatusSummary implements FileStatusResult {
     path: string;

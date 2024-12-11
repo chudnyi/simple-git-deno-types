@@ -1,6 +1,6 @@
-import { PluginStore } from '../plugins';
-import { outputHandler, SimpleGitExecutor, SimpleGitTask } from '../types';
-import { Scheduler } from './scheduler';
+import { PluginStore } from '../plugins/index.d.ts';
+import { outputHandler, SimpleGitExecutor, SimpleGitTask } from '../types/index.d.ts';
+import { Scheduler } from './scheduler.d.ts';
 export declare class GitExecutorChain implements SimpleGitExecutor {
     private _executor;
     private _scheduler;
@@ -10,7 +10,7 @@ export declare class GitExecutorChain implements SimpleGitExecutor {
     private _cwd;
     get cwd(): string;
     set cwd(cwd: string);
-    get env(): import("../types").GitExecutorEnv;
+    get env(): import("../types/index.d.ts").GitExecutorEnv;
     get outputHandler(): outputHandler | undefined;
     constructor(_executor: SimpleGitExecutor, _scheduler: Scheduler, _plugins: PluginStore);
     chain(): this;

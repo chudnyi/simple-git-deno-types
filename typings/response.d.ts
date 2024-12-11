@@ -1,5 +1,5 @@
-import type { DiffNameStatus } from '../src/lib/tasks/diff-name-status';
-import type { DefaultLogFields } from '../src/lib/tasks/log';
+import type { DiffNameStatus } from '../src/lib/tasks/diff-name-status.d.ts';
+import type { DefaultLogFields } from '../src/lib/tasks/log.d.ts';
 
 export interface BranchSummaryBranch {
    current: boolean;

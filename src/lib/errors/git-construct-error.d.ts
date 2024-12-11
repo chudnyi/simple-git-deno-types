@@ -1,5 +1,5 @@
-import { GitError } from './git-error';
-import { SimpleGitOptions } from '../types';
+import { GitError } from './git-error.d.ts';
+import { SimpleGitOptions } from '../types/index.d.ts';
 /**
  * The `GitConstructError` is thrown when an error occurs in the constructor
  * of the `simple-git` instance itself. Most commonly as a result of using

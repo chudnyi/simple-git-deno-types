@@ -1,4 +1,4 @@
-import type { SimpleGit } from '../../../typings';
+import type { SimpleGit } from '../../../typings/index.d.ts';
 export declare enum GitConfigScope {
     system = "system",
     global = "global",

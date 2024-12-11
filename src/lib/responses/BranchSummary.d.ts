@@ -1,4 +1,4 @@
-import type { BranchSummary, BranchSummaryBranch } from '../../../typings';
+import type { BranchSummary, BranchSummaryBranch } from '../../../typings/index.d.ts';
 export declare enum BranchStatusIdentifier {
     CURRENT = "*",
     LINKED = "+"

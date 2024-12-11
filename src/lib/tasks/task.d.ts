@@ -1,4 +1,6 @@
-import type { BufferTask, EmptyTaskParser, SimpleGitTask, StringTask } from '../types';
+
+import { Buffer } from "node:buffer";
+import type { BufferTask, EmptyTaskParser, SimpleGitTask, StringTask } from '../types/index.d.ts';
 export declare const EMPTY_COMMANDS: [];
 export declare type EmptyTask = {
     commands: typeof EMPTY_COMMANDS;

@@ -1,6 +1,6 @@
-import type { PluginStore } from '../plugins';
-import type { GitExecutorEnv, outputHandler, SimpleGitExecutor, SimpleGitTask } from '../types';
-import { Scheduler } from './scheduler';
+import type { PluginStore } from '../plugins/index.d.ts';
+import type { GitExecutorEnv, outputHandler, SimpleGitExecutor, SimpleGitTask } from '../types/index.d.ts';
+import { Scheduler } from './scheduler.d.ts';
 export declare class GitExecutor implements SimpleGitExecutor {
     cwd: string;
     private _scheduler;

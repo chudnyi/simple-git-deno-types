@@ -1,4 +1,4 @@
-import { Maybe, Options } from '../types';
+import { Maybe, Options } from '../types/index.d.ts';
 export declare function appendTaskOptions<T extends Options = Options>(options: Maybe<T>, commands?: string[]): string[];
 export declare function getTrailingOptions(args: IArguments, initialPrimitive?: number, objectOnly?: boolean): string[];
 /**

@@ -1,4 +1,4 @@
-import { GitError } from './git-error';
+import { GitError } from './git-error.d.ts';
 /**
  * The `TaskConfigurationError` is thrown when a command was incorrectly
  * configured. An error of this kind means that no attempt was made to

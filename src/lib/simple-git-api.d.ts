@@ -1,5 +1,5 @@
-import { SimpleGitBase } from '../../typings';
-import { outputHandler, SimpleGitExecutor, SimpleGitTask, SimpleGitTaskCallback } from './types';
+import { SimpleGitBase } from '../../typings/index.d.ts';
+import { outputHandler, SimpleGitExecutor, SimpleGitTask, SimpleGitTaskCallback } from './types/index.d.ts';
 export declare class SimpleGitApi implements SimpleGitBase {
     private _executor;
     constructor(_executor: SimpleGitExecutor);

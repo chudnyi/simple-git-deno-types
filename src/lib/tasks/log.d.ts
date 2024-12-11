@@ -1,5 +1,5 @@
-import type { Options, StringTask } from '../types';
-import type { LogResult, SimpleGit } from '../../../typings';
+import type { Options, StringTask } from '../types/index.d.ts';
+import type { LogResult, SimpleGit } from '../../../typings/index.d.ts';
 export interface DefaultLogFields {
     hash: string;
     date: string;

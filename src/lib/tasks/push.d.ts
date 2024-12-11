@@ -1,5 +1,5 @@
-import { PushResult } from '../../../typings';
-import { StringTask } from '../types';
+import { PushResult } from '../../../typings/index.d.ts';
+import { StringTask } from '../types/index.d.ts';
 declare type PushRef = {
     remote?: string;
     branch?: string;

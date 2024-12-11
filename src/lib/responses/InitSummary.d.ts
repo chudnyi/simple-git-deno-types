@@ -1,4 +1,4 @@
-import { InitResult } from '../../../typings';
+import { InitResult } from '../../../typings/index.d.ts';
 export declare class InitSummary implements InitResult {
     readonly bare: boolean;
     readonly path: string;

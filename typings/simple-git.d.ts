@@ -1,6 +1,8 @@
-import * as resp from './response';
-import * as types from './types';
-import { GitError } from './errors';
+
+import { Buffer } from "node:buffer";
+import * as resp from './response.d.ts';
+import * as types from './types.d.ts';
+import { GitError } from './errors.d.ts';
 
 export interface SimpleGitFactory {
    (baseDir?: string, options?: Partial<types.SimpleGitOptions>): SimpleGit;

@@ -1,4 +1,4 @@
-import { TagResult } from '../../../typings';
+import { TagResult } from '../../../typings/index.d.ts';
 export declare class TagList implements TagResult {
     readonly all: string[];
     readonly latest: string | undefined;

@@ -1,6 +1,8 @@
-/// <reference types="node" />
-import { GitExecutorResult, SimpleGitExecutor } from './index';
-import { EmptyTask } from '../tasks/task';
+
+import { Buffer } from "node:buffer";
+
+import { GitExecutorResult, SimpleGitExecutor } from './index.d.ts';
+import { EmptyTask } from '../tasks/task.d.ts';
 export declare type TaskResponseFormat = Buffer | string;
 export interface TaskParser<INPUT extends TaskResponseFormat, RESPONSE> {
     (stdOut: INPUT, stdErr: INPUT): RESPONSE;

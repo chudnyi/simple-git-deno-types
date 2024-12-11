@@ -1,5 +1,5 @@
-import { TagResult } from '../../../typings';
-import { StringTask } from '../types';
+import { TagResult } from '../../../typings/index.d.ts';
+import { StringTask } from '../types/index.d.ts';
 /**
  * Task used by `git.tags`
  */

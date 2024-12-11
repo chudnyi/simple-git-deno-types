@@ -1,4 +1,4 @@
-import { StringTask } from '../types';
+import { StringTask } from '../types/index.d.ts';
 /**
  * Task used by `git.hashObject`
  */

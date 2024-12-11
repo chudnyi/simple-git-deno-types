@@ -1,4 +1,4 @@
-import { StatusResult } from '../../../typings';
+import { StatusResult } from '../../../typings/index.d.ts';
 export declare class StatusSummary implements StatusResult {
     not_added: never[];
     conflicted: never[];

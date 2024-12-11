@@ -1,4 +1,4 @@
-import { MergeConflict, MergeConflictDeletion, MergeDetail, MergeResultStatus } from '../../../typings';
+import { MergeConflict, MergeConflictDeletion, MergeDetail, MergeResultStatus } from '../../../typings/index.d.ts';
 export declare class MergeSummaryConflict implements MergeConflict {
     readonly reason: string;
     readonly file: string | null;

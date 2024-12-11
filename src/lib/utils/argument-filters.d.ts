@@ -1,4 +1,4 @@
-import { Options, Primitives } from '../types';
+import { Options, Primitives } from '../types/index.d.ts';
 export interface ArgumentFilterPredicate<T> {
     (input: any): input is T;
 }

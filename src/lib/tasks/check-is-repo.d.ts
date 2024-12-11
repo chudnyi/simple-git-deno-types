@@ -1,4 +1,4 @@
-import { Maybe, StringTask } from '../types';
+import { Maybe, StringTask } from '../types/index.d.ts';
 export declare enum CheckRepoActions {
     BARE = "bare",
     IN_TREE = "tree",

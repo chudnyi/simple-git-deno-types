@@ -1,4 +1,4 @@
-import { ConfigGetResult, ConfigListSummary, ConfigValues } from '../../../typings';
+import { ConfigGetResult, ConfigListSummary, ConfigValues } from '../../../typings/index.d.ts';
 export declare class ConfigList implements ConfigListSummary {
     files: string[];
     values: {

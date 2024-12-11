@@ -1,5 +1,5 @@
-import { MergeDetail, MergeResult } from '../../../typings';
-import { TaskParser } from '../types';
+import { MergeDetail, MergeResult } from '../../../typings/index.d.ts';
+import { TaskParser } from '../types/index.d.ts';
 /**
  * Parse the complete response from `git.merge`
  */

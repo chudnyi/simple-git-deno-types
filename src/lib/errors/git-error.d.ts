@@ -1,4 +1,4 @@
-import type { SimpleGitTask } from '../types';
+import type { SimpleGitTask } from '../types/index.d.ts';
 /**
  * The `GitError` is thrown when the underlying `git` process throws a
  * fatal exception (eg an `ENOENT` exception when attempting to use a

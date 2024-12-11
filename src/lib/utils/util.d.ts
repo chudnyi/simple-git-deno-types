@@ -1,5 +1,7 @@
-/// <reference types="node" />
-import { Maybe } from '../types';
+
+import { Buffer } from "node:buffer";
+
+import { Maybe } from '../types/index.d.ts';
 export declare const NULL = "\0";
 export declare const NOOP: (...args: any[]) => void;
 /**

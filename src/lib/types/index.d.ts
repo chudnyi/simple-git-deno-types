@@ -1,12 +1,14 @@
-/// <reference types="node" />
-/// <reference types="node" />
-/// <reference types="node" />
-/// <reference types="node" />
+
+import { Buffer } from "node:buffer";
+
+
+
+
 import type { SpawnOptions } from 'node:child_process';
-import type { SimpleGitTask } from './tasks';
-import type { SimpleGitProgressEvent } from './handlers';
-export * from './handlers';
-export * from './tasks';
+import type { SimpleGitTask } from './tasks.d.ts';
+import type { SimpleGitProgressEvent } from './handlers.d.ts';
+export * from './handlers.d.ts';
+export * from './tasks.d.ts';
 /**
  * Most tasks accept custom options as an array of strings as well as the
  * options object. Unless the task is explicitly documented as such, the

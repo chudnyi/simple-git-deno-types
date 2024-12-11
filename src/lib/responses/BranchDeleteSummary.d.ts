@@ -1,4 +1,4 @@
-import { BranchMultiDeleteResult, BranchSingleDeleteFailure, BranchSingleDeleteResult, BranchSingleDeleteSuccess } from '../../../typings';
+import { BranchMultiDeleteResult, BranchSingleDeleteFailure, BranchSingleDeleteResult, BranchSingleDeleteSuccess } from '../../../typings/index.d.ts';
 export declare class BranchDeletionBatch implements BranchMultiDeleteResult {
     all: BranchSingleDeleteResult[];
     branches: {

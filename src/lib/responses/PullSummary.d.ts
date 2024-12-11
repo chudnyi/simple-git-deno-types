@@ -1,4 +1,4 @@
-import { PullDetailFileChanges, PullDetailSummary, PullFailedResult, PullResult } from '../../../typings';
+import { PullDetailFileChanges, PullDetailSummary, PullFailedResult, PullResult } from '../../../typings/index.d.ts';
 export declare class PullSummary implements PullResult {
     remoteMessages: {
         all: never[];
