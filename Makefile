@@ -1,7 +1,7 @@
 all: update process check
 
 update:
-	scripts/update.ts --verbose
+	scripts/update.ts
 
 process:
 	scripts/process.ts
