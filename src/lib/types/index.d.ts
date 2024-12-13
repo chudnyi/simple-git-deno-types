@@ -1,9 +1,9 @@
 
 import { Buffer } from "node:buffer";
-/// <reference types="npm:@types/node" />
-/// <reference types="npm:@types/node" />
-/// <reference types="npm:@types/node" />
-/// <reference types="npm:@types/node" />
+
+
+
+
 import type { SpawnOptions } from 'node:child_process';
 import type { SimpleGitTask } from './tasks.d.ts';
 import type { SimpleGitProgressEvent } from './handlers.d.ts';

@@ -1,6 +1,6 @@
 
 import { Buffer } from "node:buffer";
-/// <reference types="npm:@types/node" />
+
 import { GitExecutorResult, SimpleGitPluginConfig } from '../types/index.d.ts';
 import { SimpleGitPlugin } from './simple-git-plugin.d.ts';
 declare type TaskResult = Omit<GitExecutorResult, 'rejection'>;

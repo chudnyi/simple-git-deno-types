@@ -1,6 +1,6 @@
 
 import { Buffer } from "node:buffer";
-/// <reference types="npm:@types/node" />
+
 import { GitExecutorResult, SimpleGitExecutor } from './index.d.ts';
 import { EmptyTask } from '../tasks/task.d.ts';
 export declare type TaskResponseFormat = Buffer | string;
