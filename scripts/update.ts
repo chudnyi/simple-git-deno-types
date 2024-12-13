@@ -25,6 +25,8 @@ export const command = new Command()
     await $`rm -fr src typings`;
     await $`cp -R .simple-git/package/dist/src .`;
     await $`cp -R .simple-git/package/dist/typings .`;
+    console.log(`save version ${version} to file version.txt`);
+    await Deno.writeTextFile("version.txt", version);
   });
 
 async function getLatestVersion() {
