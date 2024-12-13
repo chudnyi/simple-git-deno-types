@@ -27,7 +27,7 @@ export declare type OptionFlags<FLAGS extends string, VALUE = null> = Partial<Re
  * process. Allows the calling application to implement custom handling of
  * the incoming stream of data from the `git`.
  */
-export declare type outputHandler = (command: string, stdout: NodeJS.ReadableStream, stderr: NodeJS.ReadableStream, args: string[]) => void;
+export declare type outputHandler = (command: string, stdout: ReadableStream, stderr: ReadableStream, args: string[]) => void;
 /**
  * Environment variables to be passed into the child process.
  */
