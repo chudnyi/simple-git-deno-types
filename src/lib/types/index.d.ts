@@ -1,9 +1,9 @@
 
 import { Buffer } from "node:buffer";
-
-
-
-
+/// <reference types="npm:@types/node" />
+/// <reference types="npm:@types/node" />
+/// <reference types="npm:@types/node" />
+/// <reference types="npm:@types/node" />
 import type { SpawnOptions } from 'node:child_process';
 import type { SimpleGitTask } from './tasks.d.ts';
 import type { SimpleGitProgressEvent } from './handlers.d.ts';
@@ -27,7 +27,7 @@ export declare type OptionFlags<FLAGS extends string, VALUE = null> = Partial<Re
  * process. Allows the calling application to implement custom handling of
  * the incoming stream of data from the `git`.
  */
-export declare type outputHandler = (command: string, stdout: NodeJS.ReadableStream, stderr: NodeJS.ReadableStream, args: string[]) => void;
+export declare type outputHandler = (command: string, stdout: ReadableStream, stderr: ReadableStream, args: string[]) => void;
 /**
  * Environment variables to be passed into the child process.
  */

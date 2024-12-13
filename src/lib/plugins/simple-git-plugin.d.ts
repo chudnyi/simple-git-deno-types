@@ -1,4 +1,4 @@
-
+/// <reference types="npm:@types/node" />
 import { ChildProcess, SpawnOptions } from 'node:child_process';
 import { GitExecutorResult } from '../types/index.d.ts';
 declare type SimpleGitTaskPluginContext = {

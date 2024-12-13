@@ -1,6 +1,6 @@
 
 import { Buffer } from "node:buffer";
-
+/// <reference types="npm:@types/node" />
 import { Maybe } from '../types/index.d.ts';
 export declare const NULL = "\0";
 export declare const NOOP: (...args: any[]) => void;
